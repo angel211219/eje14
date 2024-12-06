@@ -1,0 +1,14 @@
+/* Estilos personalizados con fondos superpuestos */
+body {
+    font-family: Arial, sans-serif;
+    /* Primer fondo: un color sólido */
+    background: linear-gradient(to bottom, #aa5fff, #000000), 
+                /* Segundo fondo: una imagen */
+                url('https://example.com/your-image.jpg');
+    background-size: cover, cover; /* Ajusta ambos fondos para cubrir toda la página */
+    background-repeat: no-repeat, no-repeat; /* Ambos fondos no se repiten */
+}
+
+.container {
+    margin-top: 50px;
+}
